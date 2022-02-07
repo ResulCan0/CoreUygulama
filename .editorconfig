@@ -1,0 +1,28 @@
+﻿[*.cs]
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = warning
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = none
+
+# IDE0058: İfade değeri asla kullanılmaz
+dotnet_diagnostic.IDE0058.severity = none
+
+# IDE0008: Açık tür kullanma
+dotnet_diagnostic.IDE0008.severity = none
+
+# IDE0059: Bir değerin gereksiz ataması
+dotnet_diagnostic.IDE0059.severity = none
+
+# IDE0022: Metotlar için blok gövdesi kullan
+dotnet_diagnostic.IDE0022.severity = none
+
+# IDE0045: Koşullu ifadeye dönüştürme
+dotnet_diagnostic.IDE0045.severity = none
+
+# IDE0046: Koşullu ifadeye dönüştürme
+dotnet_diagnostic.IDE0046.severity = none
+
+# CS4014: Bu çağrı beklenmediği için, çağrı tamamlanmadan önce geçerli yöntemin yürütülmesine devam ediliyor
+dotnet_diagnostic.CS4014.severity = none
